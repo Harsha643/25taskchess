@@ -39,35 +39,35 @@
     height: 100px;
     border: 2px solid black; 
 }
-.row1 .white{
+.row1>.white:nth-child(even){
     background-color:lightcoral;
    
 
 }
-.row2 .black {
+.row2>.white:nth-child(odd){
     background-color:lightcoral;
   
 }
-.row3 .white{
+.row3>.white:nth-child(even){
     background-color: lightcoral;
 }
-.row4 .black{
+.row4>.white:nth-child(odd){
     background-color:lightcoral;
   
 }
-.row5 .white{
+.row5>.white:nth-child(even){
     background-color:lightcoral;
    
 }
-.row6 .black{
+.row6>.white:nth-child(odd){
     background-color:lightcoral;
     
 }
-.row7 .white{
+.row7>.white:nth-child(even){
     background-color: lightcoral;
    
 }
-.row8 .black{
+.row8>.white:nth-child(odd){
     background-color:lightcoral;
   
 }
@@ -90,11 +90,11 @@
         height: 62vh;
         border: 2px solid black;
     }
-    .black{
+    /* .white{
         width: 62vw;
         height: 62vh;
         border: 2px solid black;
-    }
+    } */
     .main-container{
         display: flex;
         width: 500px;
@@ -125,11 +125,11 @@
         height: 40vh;
         border: 1px solid black;
     }
-    .black{
+    /* .black{
         width: 40vw;
         height: 40vh;
         border: 1px solid black;
-    }
+    } */
     .main-container{
         display: flex;
         width: 323px;
